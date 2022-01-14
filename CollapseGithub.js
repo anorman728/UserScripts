@@ -8,6 +8,9 @@
 // @grant        none
 // ==/UserScript==
 
+// NOTE: This currently requires reloading the page because of the asinine way
+// that Github is designed!
+
 (function() {
 var collapseAll = function() {
     Array.from(document.getElementsByClassName('file')).forEach(function(el) {
